@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HrApp", "HrApp.csproj", "{BF1C3E36-2D90-4C97-AFD7-75783BE60924}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HrAppBusiness", "..\HrAppBusiness\HrAppBusiness.csproj", "{FC5E6D41-B34C-460D-B335-248E81B0DAC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HrAppTests", "..\HrAppTests\HrAppTests.csproj", "{8ABE8F41-9D0A-40E3-97CC-8E6417F8D400}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HrAppModels", "..\HrAppModels\HrAppModels.csproj", "{90CED6F6-082C-4EE3-8336-DFC5DFA677E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HrAppControllers", "..\HrAppControllers\HrAppControllers.csproj", "{AB5CB0F3-BE4E-4225-9B91-FB78BB7F754C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HrAppDataAcces", "..\HrAppDataAcces\HrAppDataAcces.csproj", "{0745A96E-4E60-444F-A2D9-673C850C6096}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF1C3E36-2D90-4C97-AFD7-75783BE60924}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF1C3E36-2D90-4C97-AFD7-75783BE60924}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF1C3E36-2D90-4C97-AFD7-75783BE60924}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF1C3E36-2D90-4C97-AFD7-75783BE60924}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC5E6D41-B34C-460D-B335-248E81B0DAC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC5E6D41-B34C-460D-B335-248E81B0DAC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC5E6D41-B34C-460D-B335-248E81B0DAC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC5E6D41-B34C-460D-B335-248E81B0DAC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8ABE8F41-9D0A-40E3-97CC-8E6417F8D400}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8ABE8F41-9D0A-40E3-97CC-8E6417F8D400}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8ABE8F41-9D0A-40E3-97CC-8E6417F8D400}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8ABE8F41-9D0A-40E3-97CC-8E6417F8D400}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90CED6F6-082C-4EE3-8336-DFC5DFA677E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90CED6F6-082C-4EE3-8336-DFC5DFA677E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90CED6F6-082C-4EE3-8336-DFC5DFA677E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90CED6F6-082C-4EE3-8336-DFC5DFA677E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB5CB0F3-BE4E-4225-9B91-FB78BB7F754C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB5CB0F3-BE4E-4225-9B91-FB78BB7F754C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB5CB0F3-BE4E-4225-9B91-FB78BB7F754C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB5CB0F3-BE4E-4225-9B91-FB78BB7F754C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0745A96E-4E60-444F-A2D9-673C850C6096}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0745A96E-4E60-444F-A2D9-673C850C6096}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0745A96E-4E60-444F-A2D9-673C850C6096}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0745A96E-4E60-444F-A2D9-673C850C6096}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E5B2B2EB-9A9A-4C8A-835C-162E2A51B644}
+	EndGlobalSection
+EndGlobal

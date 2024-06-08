@@ -1,0 +1,22 @@
+C:\Users\drago\source\repos\New folder (2)\HrApp\BackEnd\HrAppModels\obj\Debug\net8.0\HrAppModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\drago\source\repos\New folder (2)\HrApp\BackEnd\HrAppModels\obj\Debug\net8.0\HrAppModels.AssemblyInfoInputs.cache
+C:\Users\drago\source\repos\New folder (2)\HrApp\BackEnd\HrAppModels\obj\Debug\net8.0\HrAppModels.AssemblyInfo.cs
+C:\Users\drago\source\repos\New folder (2)\HrApp\BackEnd\HrAppModels\obj\Debug\net8.0\HrAppModels.csproj.CoreCompileInputs.cache
+C:\Users\drago\source\repos\New folder (2)\HrApp\BackEnd\HrAppModels\bin\Debug\net8.0\HrAppModels.deps.json
+C:\Users\drago\source\repos\New folder (2)\HrApp\BackEnd\HrAppModels\bin\Debug\net8.0\HrAppModels.dll
+C:\Users\drago\source\repos\New folder (2)\HrApp\BackEnd\HrAppModels\bin\Debug\net8.0\HrAppModels.pdb
+C:\Users\drago\source\repos\New folder (2)\HrApp\BackEnd\HrAppModels\obj\Debug\net8.0\HrAppModels.dll
+C:\Users\drago\source\repos\New folder (2)\HrApp\BackEnd\HrAppModels\obj\Debug\net8.0\refint\HrAppModels.dll
+C:\Users\drago\source\repos\New folder (2)\HrApp\BackEnd\HrAppModels\obj\Debug\net8.0\HrAppModels.pdb
+C:\Users\drago\source\repos\New folder (2)\HrApp\BackEnd\HrAppModels\obj\Debug\net8.0\ref\HrAppModels.dll
+C:\Users\drago\source\repos\Hr-ManagentBack\HrAppModels\bin\Debug\net8.0\HrAppModels.deps.json
+C:\Users\drago\source\repos\Hr-ManagentBack\HrAppModels\bin\Debug\net8.0\HrAppModels.dll
+C:\Users\drago\source\repos\Hr-ManagentBack\HrAppModels\bin\Debug\net8.0\HrAppModels.pdb
+C:\Users\drago\source\repos\Hr-ManagentBack\HrAppModels\obj\Debug\net8.0\HrAppModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\drago\source\repos\Hr-ManagentBack\HrAppModels\obj\Debug\net8.0\HrAppModels.AssemblyInfoInputs.cache
+C:\Users\drago\source\repos\Hr-ManagentBack\HrAppModels\obj\Debug\net8.0\HrAppModels.AssemblyInfo.cs
+C:\Users\drago\source\repos\Hr-ManagentBack\HrAppModels\obj\Debug\net8.0\HrAppModels.csproj.CoreCompileInputs.cache
+C:\Users\drago\source\repos\Hr-ManagentBack\HrAppModels\obj\Debug\net8.0\HrAppModels.dll
+C:\Users\drago\source\repos\Hr-ManagentBack\HrAppModels\obj\Debug\net8.0\refint\HrAppModels.dll
+C:\Users\drago\source\repos\Hr-ManagentBack\HrAppModels\obj\Debug\net8.0\HrAppModels.pdb
+C:\Users\drago\source\repos\Hr-ManagentBack\HrAppModels\obj\Debug\net8.0\ref\HrAppModels.dll

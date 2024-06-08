@@ -1,0 +1,34 @@
+C:\Users\drago\source\repos\New folder (2)\HrApp\BackEnd\HrAppDataAcces\obj\Debug\net8.0\HrAppDataAcces.csproj.AssemblyReference.cache
+C:\Users\drago\source\repos\New folder (2)\HrApp\BackEnd\HrAppDataAcces\obj\Debug\net8.0\HrAppDataAcces.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\drago\source\repos\New folder (2)\HrApp\BackEnd\HrAppDataAcces\obj\Debug\net8.0\HrAppDataAcces.AssemblyInfoInputs.cache
+C:\Users\drago\source\repos\New folder (2)\HrApp\BackEnd\HrAppDataAcces\obj\Debug\net8.0\HrAppDataAcces.AssemblyInfo.cs
+C:\Users\drago\source\repos\New folder (2)\HrApp\BackEnd\HrAppDataAcces\obj\Debug\net8.0\HrAppDataAcces.csproj.CoreCompileInputs.cache
+C:\Users\drago\source\repos\New folder (2)\HrApp\BackEnd\HrAppDataAcces\bin\Debug\net8.0\HrAppDataAcces.deps.json
+C:\Users\drago\source\repos\New folder (2)\HrApp\BackEnd\HrAppDataAcces\bin\Debug\net8.0\HrAppDataAcces.runtimeconfig.json
+C:\Users\drago\source\repos\New folder (2)\HrApp\BackEnd\HrAppDataAcces\bin\Debug\net8.0\HrAppDataAcces.dll
+C:\Users\drago\source\repos\New folder (2)\HrApp\BackEnd\HrAppDataAcces\bin\Debug\net8.0\HrAppDataAcces.pdb
+C:\Users\drago\source\repos\New folder (2)\HrApp\BackEnd\HrAppDataAcces\bin\Debug\net8.0\HrAppModels.dll
+C:\Users\drago\source\repos\New folder (2)\HrApp\BackEnd\HrAppDataAcces\bin\Debug\net8.0\HrAppModels.pdb
+C:\Users\drago\source\repos\New folder (2)\HrApp\BackEnd\HrAppDataAcces\obj\Debug\net8.0\HrAppDataAcces.dll
+C:\Users\drago\source\repos\New folder (2)\HrApp\BackEnd\HrAppDataAcces\obj\Debug\net8.0\refint\HrAppDataAcces.dll
+C:\Users\drago\source\repos\New folder (2)\HrApp\BackEnd\HrAppDataAcces\obj\Debug\net8.0\HrAppDataAcces.pdb
+C:\Users\drago\source\repos\New folder (2)\HrApp\BackEnd\HrAppDataAcces\obj\Debug\net8.0\HrAppDataAcces.genruntimeconfig.cache
+C:\Users\drago\source\repos\New folder (2)\HrApp\BackEnd\HrAppDataAcces\obj\Debug\net8.0\ref\HrAppDataAcces.dll
+C:\Users\drago\source\repos\New folder (2)\HrApp\BackEnd\HrAppDataAcces\obj\Debug\net8.0\HrAppDataAcces.csproj.CopyComplete
+C:\Users\drago\source\repos\Hr-ManagentBack\HrAppDataAcces\bin\Debug\net8.0\HrAppDataAcces.deps.json
+C:\Users\drago\source\repos\Hr-ManagentBack\HrAppDataAcces\bin\Debug\net8.0\HrAppDataAcces.runtimeconfig.json
+C:\Users\drago\source\repos\Hr-ManagentBack\HrAppDataAcces\bin\Debug\net8.0\HrAppDataAcces.dll
+C:\Users\drago\source\repos\Hr-ManagentBack\HrAppDataAcces\bin\Debug\net8.0\HrAppDataAcces.pdb
+C:\Users\drago\source\repos\Hr-ManagentBack\HrAppDataAcces\bin\Debug\net8.0\HrAppModels.dll
+C:\Users\drago\source\repos\Hr-ManagentBack\HrAppDataAcces\bin\Debug\net8.0\HrAppModels.pdb
+C:\Users\drago\source\repos\Hr-ManagentBack\HrAppDataAcces\obj\Debug\net8.0\HrAppDataAcces.csproj.AssemblyReference.cache
+C:\Users\drago\source\repos\Hr-ManagentBack\HrAppDataAcces\obj\Debug\net8.0\HrAppDataAcces.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\drago\source\repos\Hr-ManagentBack\HrAppDataAcces\obj\Debug\net8.0\HrAppDataAcces.AssemblyInfoInputs.cache
+C:\Users\drago\source\repos\Hr-ManagentBack\HrAppDataAcces\obj\Debug\net8.0\HrAppDataAcces.AssemblyInfo.cs
+C:\Users\drago\source\repos\Hr-ManagentBack\HrAppDataAcces\obj\Debug\net8.0\HrAppDataAcces.csproj.CoreCompileInputs.cache
+C:\Users\drago\source\repos\Hr-ManagentBack\HrAppDataAcces\obj\Debug\net8.0\HrAppDataAcces.csproj.CopyComplete
+C:\Users\drago\source\repos\Hr-ManagentBack\HrAppDataAcces\obj\Debug\net8.0\HrAppDataAcces.dll
+C:\Users\drago\source\repos\Hr-ManagentBack\HrAppDataAcces\obj\Debug\net8.0\refint\HrAppDataAcces.dll
+C:\Users\drago\source\repos\Hr-ManagentBack\HrAppDataAcces\obj\Debug\net8.0\HrAppDataAcces.pdb
+C:\Users\drago\source\repos\Hr-ManagentBack\HrAppDataAcces\obj\Debug\net8.0\HrAppDataAcces.genruntimeconfig.cache
+C:\Users\drago\source\repos\Hr-ManagentBack\HrAppDataAcces\obj\Debug\net8.0\ref\HrAppDataAcces.dll

@@ -1,0 +1,22 @@
+C:\Users\drago\source\repos\New folder (2)\HrApp\BackEnd\HrAppTests\bin\Debug\net8.0\HrAppTests.deps.json
+C:\Users\drago\source\repos\New folder (2)\HrApp\BackEnd\HrAppTests\bin\Debug\net8.0\HrAppTests.dll
+C:\Users\drago\source\repos\New folder (2)\HrApp\BackEnd\HrAppTests\bin\Debug\net8.0\HrAppTests.pdb
+C:\Users\drago\source\repos\New folder (2)\HrApp\BackEnd\HrAppTests\obj\Debug\net8.0\HrAppTests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\drago\source\repos\New folder (2)\HrApp\BackEnd\HrAppTests\obj\Debug\net8.0\HrAppTests.AssemblyInfoInputs.cache
+C:\Users\drago\source\repos\New folder (2)\HrApp\BackEnd\HrAppTests\obj\Debug\net8.0\HrAppTests.AssemblyInfo.cs
+C:\Users\drago\source\repos\New folder (2)\HrApp\BackEnd\HrAppTests\obj\Debug\net8.0\HrAppTests.csproj.CoreCompileInputs.cache
+C:\Users\drago\source\repos\New folder (2)\HrApp\BackEnd\HrAppTests\obj\Debug\net8.0\HrAppTests.dll
+C:\Users\drago\source\repos\New folder (2)\HrApp\BackEnd\HrAppTests\obj\Debug\net8.0\refint\HrAppTests.dll
+C:\Users\drago\source\repos\New folder (2)\HrApp\BackEnd\HrAppTests\obj\Debug\net8.0\HrAppTests.pdb
+C:\Users\drago\source\repos\New folder (2)\HrApp\BackEnd\HrAppTests\obj\Debug\net8.0\ref\HrAppTests.dll
+C:\Users\drago\source\repos\Hr-ManagentBack\HrAppTests\bin\Debug\net8.0\HrAppTests.deps.json
+C:\Users\drago\source\repos\Hr-ManagentBack\HrAppTests\bin\Debug\net8.0\HrAppTests.dll
+C:\Users\drago\source\repos\Hr-ManagentBack\HrAppTests\bin\Debug\net8.0\HrAppTests.pdb
+C:\Users\drago\source\repos\Hr-ManagentBack\HrAppTests\obj\Debug\net8.0\HrAppTests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\drago\source\repos\Hr-ManagentBack\HrAppTests\obj\Debug\net8.0\HrAppTests.AssemblyInfoInputs.cache
+C:\Users\drago\source\repos\Hr-ManagentBack\HrAppTests\obj\Debug\net8.0\HrAppTests.AssemblyInfo.cs
+C:\Users\drago\source\repos\Hr-ManagentBack\HrAppTests\obj\Debug\net8.0\HrAppTests.csproj.CoreCompileInputs.cache
+C:\Users\drago\source\repos\Hr-ManagentBack\HrAppTests\obj\Debug\net8.0\HrAppTests.dll
+C:\Users\drago\source\repos\Hr-ManagentBack\HrAppTests\obj\Debug\net8.0\refint\HrAppTests.dll
+C:\Users\drago\source\repos\Hr-ManagentBack\HrAppTests\obj\Debug\net8.0\HrAppTests.pdb
+C:\Users\drago\source\repos\Hr-ManagentBack\HrAppTests\obj\Debug\net8.0\ref\HrAppTests.dll
