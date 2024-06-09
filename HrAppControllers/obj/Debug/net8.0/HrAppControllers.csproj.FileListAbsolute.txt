@@ -36,3 +36,4 @@ C:\Users\drago\source\repos\Hr-ManagentBack\HrAppControllers\obj\Debug\net8.0\Hr
 C:\Users\drago\source\repos\Hr-ManagentBack\HrAppControllers\obj\Debug\net8.0\refint\HrAppControllers.dll
 C:\Users\drago\source\repos\Hr-ManagentBack\HrAppControllers\obj\Debug\net8.0\HrAppControllers.pdb
 C:\Users\drago\source\repos\Hr-ManagentBack\HrAppControllers\obj\Debug\net8.0\ref\HrAppControllers.dll
+C:\Users\drago\source\repos\Hr-ManagentBack\HrAppControllers\obj\Debug\net8.0\HrAppControllers.sourcelink.json

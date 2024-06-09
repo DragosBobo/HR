@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HrAppControllers")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+45c2e6807b68c746d8cdd125be7dcd1fe7a7b3d8")]
 [assembly: System.Reflection.AssemblyProductAttribute("HrAppControllers")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HrAppControllers")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HrAppDataAcces.Entities
 {
-    internal class IdentityCard : BaseFile
+    public class IdentityCard : BaseFile
     {
         public string CNP { get; set; }
         public string Series { get; set; }

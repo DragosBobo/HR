@@ -25,28 +25,35 @@ namespace HrAppDataAcces
 
             modelBuilder.Entity<User>(entity =>
             {
-                entity.ToTable("User");
+                entity.ToTable("Users");
 
                 entity.HasKey(e => e.Id);
 
                 entity.Property(e => e.Id)
-                    .HasColumnName("Id")
-                    .ValueGeneratedOnAdd();
+                    .HasColumnName("Id");
 
                 entity.Property(e => e.Username)
                     .HasColumnName("Username")
                     .IsRequired();
-                entity.Property(e => e.Id_AppUser)
-                   .HasColumnName("Id_AppUser");
-                entity.HasOne(e => e.APPUser)
-                   .WithOne()
-                   .HasForeignKey<User>(u => u.Id_AppUser)
-                    .OnDelete(DeleteBehavior.Cascade);
+                entity.Property(e => e.SysAdmin)
+    .HasColumnName("Is_SysAdmin")
+    .IsRequired();
+
+                entity.Property(e => e.Password)
+                    .HasColumnName("Password")
+                    .IsRequired();
+                entity.Property(e => e.UnitId)
+                    .HasColumnName("Unit_Id")
+                    .IsRequired();
+                //entity.Property(e => e.Id_AppUser)
+                //   .HasColumnName("Id_AppUser");
+              
+                    
 
             });
             modelBuilder.Entity<APPUser>(entity =>
             {
-                entity.ToTable("APPUser");
+                entity.ToTable("APPUsers");
 
                 entity.HasKey(e => e.Id);
 
@@ -61,7 +68,13 @@ namespace HrAppDataAcces
                     .WithMany()
                     .HasForeignKey(e => e.RoleId)
                     .OnDelete(DeleteBehavior.Restrict);
-
+                entity.Property(e => e.UserId)
+                  .HasColumnName("Id_User");
+                entity.Property(e => e.FirstName)
+             .HasColumnName("FirstName");
+                entity.HasOne(e => e.User)
+                 .WithOne()
+                 .HasForeignKey<APPUser>(u => u.UserId);
                 //entity.HasOne(e => e.SecondaryRole)
                 //    .WithMany()
                 //    .HasForeignKey(e => e.SecondaryRoleId)

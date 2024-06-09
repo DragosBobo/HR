@@ -32,3 +32,4 @@ C:\Users\drago\source\repos\Hr-ManagentBack\HrAppBusiness\obj\Debug\net8.0\HrApp
 C:\Users\drago\source\repos\Hr-ManagentBack\HrAppBusiness\obj\Debug\net8.0\refint\HrAppBusiness.dll
 C:\Users\drago\source\repos\Hr-ManagentBack\HrAppBusiness\obj\Debug\net8.0\HrAppBusiness.pdb
 C:\Users\drago\source\repos\Hr-ManagentBack\HrAppBusiness\obj\Debug\net8.0\ref\HrAppBusiness.dll
+C:\Users\drago\source\repos\Hr-ManagentBack\HrAppBusiness\obj\Debug\net8.0\HrAppBusiness.sourcelink.json

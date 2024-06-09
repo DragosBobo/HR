@@ -32,3 +32,4 @@ C:\Users\drago\source\repos\Hr-ManagentBack\HrAppDataAcces\obj\Debug\net8.0\refi
 C:\Users\drago\source\repos\Hr-ManagentBack\HrAppDataAcces\obj\Debug\net8.0\HrAppDataAcces.pdb
 C:\Users\drago\source\repos\Hr-ManagentBack\HrAppDataAcces\obj\Debug\net8.0\HrAppDataAcces.genruntimeconfig.cache
 C:\Users\drago\source\repos\Hr-ManagentBack\HrAppDataAcces\obj\Debug\net8.0\ref\HrAppDataAcces.dll
+C:\Users\drago\source\repos\Hr-ManagentBack\HrAppDataAcces\obj\Debug\net8.0\HrAppDataAcces.sourcelink.json

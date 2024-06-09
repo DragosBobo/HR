@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HrAppDataAcces.Entities
 {
-    internal class BaseFile
+    public class BaseFile
     {
         public DateTime EmitedDate { get; set; }
         public string FileName { get; set; }

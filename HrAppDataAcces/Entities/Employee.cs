@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HrAppDataAcces.Entities
 {
-    internal class Employee
+    public class Employee
     {
         public int EmployeeID { get; set; }
         public string Name { get; set; }

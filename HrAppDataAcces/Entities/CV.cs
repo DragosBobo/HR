@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HrAppDataAcces.Entities
 {
-    internal class CV : BaseFile
+    public class CV : BaseFile
     {
         public string Name { get; set; }
         public string Description { get; set; }

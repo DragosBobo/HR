@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Numerics;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -11,9 +12,11 @@ namespace HrAppDataAcces.Entities
         public Guid Id { get; set; }
         public string Username { get; set; }
 
-        private string Password { get; set; }
-        public int Id_AppUser { get; set; }
-        public APPUser APPUser { get; set; }
+        public string Password { get; set; }
+      public int UnitId  { get; set; }
+        public bool SysAdmin { get; set; }
+       
+
 
     }
 }
