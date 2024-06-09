@@ -19,10 +19,25 @@ namespace HrAppDataAcces
         public DbSet<APPUser> AplicationUsers { get; set; }
 
         public DbSet<Role> Roles { get; set; }
+        public DbSet<Unit> Units { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
 
+            #region Unit
+            modelBuilder.Entity<Unit>(entity =>
+            {
+                entity.ToTable("Units");
+                entity.HasKey(e => e.Id);
+
+                entity.Property(e => e.Id)
+                    .HasColumnName("Id");
+
+                entity.Property(e => e.UnitName)
+                    .HasColumnName("Name");
+            });
+            #endregion
+            #region User
             modelBuilder.Entity<User>(entity =>
             {
                 entity.ToTable("Users");
@@ -80,6 +95,8 @@ namespace HrAppDataAcces
                 //    .HasForeignKey(e => e.SecondaryRoleId)
                 //    .OnDelete(DeleteBehavior.Restrict);
             });
+            #endregion
+            #region Role
             modelBuilder.Entity<Role>(entity =>
             {
                 entity.ToTable("Role");
@@ -96,8 +113,9 @@ namespace HrAppDataAcces
                 entity.Property(e => e.Description)
                   .HasColumnName("Description");
             });
+            #endregion 
         }
 
 
-        }
+    }
 }
