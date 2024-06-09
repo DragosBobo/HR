@@ -15,6 +15,32 @@
 
 # Mono auto generated files
 mono_crash.*
+# Ignoră folderele de build
+**/bin/
+**/obj/
+
+# Ignoră fișierele generate de build și alte artefacte de compilare
+*.dll
+*.pdb
+*.exe
+*.cache
+*.csproj.user
+*.suo
+*.sln.docstates
+*.sourcelink.json
+
+# Ignoră fișierele temporare și log-uri
+*.log
+*.tmp
+
+# Ignoră fișierele generate de IDE
+.vscode/
+.idea/
+*.userprefs
+
+# Ignoră fișierele de configurare pentru sistemul de operare
+.DS_Store
+Thumbs.db
 
 # Build results
 [Dd]ebug/
