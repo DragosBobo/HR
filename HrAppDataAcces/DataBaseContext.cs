@@ -14,107 +14,109 @@ namespace HrAppDataAcces
         public DataBaseContext(DbContextOptions<DataBaseContext> options) : base(options)
         {
         }
-        public DataBaseContext() { }
-        public DbSet<User> Users { get; set; }
-        public DbSet<APPUser> AplicationUsers { get; set; }
+         public DataBaseContext() { }
+         public DbSet<User> Users { get; set; }
+         public DbSet<APPUser> AplicationUsers { get; set; }
 
-        public DbSet<Role> Roles { get; set; }
-        public DbSet<Unit> Units { get; set; }
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            base.OnModelCreating(modelBuilder);
+         public DbSet<Role> Roles { get; set; }
+         public DbSet<Unit> Units { get; set; }
+    //    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    //    {
+    //        base.OnModelCreating(modelBuilder);
 
-            #region Unit
-            modelBuilder.Entity<Unit>(entity =>
-            {
-                entity.ToTable("Units");
-                entity.HasKey(e => e.Id);
+    //        #region Unit
+    //        modelBuilder.Entity<Unit>(entity =>
+    //        {
+    //            entity.ToTable("Units");
+    //            entity.HasKey(e => e.Id);
 
-                entity.Property(e => e.Id)
-                    .HasColumnName("Id");
+    //            entity.Property(e => e.Id)
+    //                .HasColumnName("Id");
 
-                entity.Property(e => e.UnitName)
-                    .HasColumnName("Name");
-            });
-            #endregion
-            #region User
-            modelBuilder.Entity<User>(entity =>
-            {
-                entity.ToTable("Users");
+    //            entity.Property(e => e.UnitName)
+    //                .HasColumnName("Name");
+    //        });
+    //        #endregion
+    //        #region User
+    //        modelBuilder.Entity<User>(entity =>
+    //        {
+    //            entity.ToTable("Users");
 
-                entity.HasKey(e => e.Id);
+    //            entity.HasKey(e => e.Id);
 
-                entity.Property(e => e.Id)
-                    .HasColumnName("Id");
+    //            entity.Property(e => e.Id)
+    //                .HasColumnName("Id");
 
-                entity.Property(e => e.Username)
-                    .HasColumnName("Username")
-                    .IsRequired();
-                entity.Property(e => e.SysAdmin)
-    .HasColumnName("Is_SysAdmin")
-    .IsRequired();
+    //            entity.Property(e => e.Username)
+    //                .HasColumnName("Username")
+    //                .IsRequired();
+    //            entity.Property(e => e.SysAdmin)
+    //.HasColumnName("Is_SysAdmin")
+    //.IsRequired();
 
-                entity.Property(e => e.Password)
-                    .HasColumnName("Password")
-                    .IsRequired();
-                entity.Property(e => e.UnitId)
-                    .HasColumnName("Unit_Id")
-                    .IsRequired();
-                //entity.Property(e => e.Id_AppUser)
-                //   .HasColumnName("Id_AppUser");
+    //            entity.Property(e => e.Password)
+    //                .HasColumnName("Password")
+    //                .IsRequired();
+    //            entity.Property(e => e.UnitId)
+    //                .HasColumnName("Unit_Id")
+    //                .IsRequired();
+    //            //entity.Property(e => e.Id_AppUser)
+    //            //   .HasColumnName("Id_AppUser");
               
                     
 
-            });
-            modelBuilder.Entity<APPUser>(entity =>
-            {
-                entity.ToTable("APPUsers");
+    //        });
+    //        modelBuilder.Entity<APPUser>(entity =>
+    //        {
+    //            entity.ToTable("APPUsers");
 
-                entity.HasKey(e => e.Id);
+    //            entity.HasKey(e => e.Id);
 
-                entity.Property(e => e.Id)
-                    .IsRequired()
-                    .ValueGeneratedOnAdd();
+    //            entity.Property(e => e.Id)
+    //                .IsRequired()
+    //                .ValueGeneratedOnAdd();
 
-                entity.Property(e => e.RoleId)
-                    .HasColumnName("Id_Role");
+    //            entity.Property(e => e.RoleId)
+    //                .HasColumnName("Id_Role");
+                
+    //             entity.Property(e => e.DepartmentId)
+    //                .HasColumnName("Id_Departament");
+    //            entity.HasOne(e => e.Role)
+    //                .WithMany()
+    //                .HasForeignKey(e => e.RoleId)
+    //                .OnDelete(DeleteBehavior.Restrict);
+    //            entity.Property(e => e.UserId)
+    //              .HasColumnName("Id_User");
+    //            entity.Property(e => e.FirstName)
+    //         .HasColumnName("FirstName");
+    //            entity.HasOne(e => e.User)
+    //             .WithOne()
+    //             .HasForeignKey<APPUser>(u => u.UserId);
+    //            //entity.HasOne(e => e.SecondaryRole)
+    //            //    .WithMany()
+    //            //    .HasForeignKey(e => e.SecondaryRoleId)
+    //            //    .OnDelete(DeleteBehavior.Restrict);
+    //        });
+    //        #endregion
+    //        #region Role
+    //        modelBuilder.Entity<Role>(entity =>
+    //        {
+    //            entity.ToTable("Role");
 
-                entity.HasOne(e => e.Role)
-                    .WithMany()
-                    .HasForeignKey(e => e.RoleId)
-                    .OnDelete(DeleteBehavior.Restrict);
-                entity.Property(e => e.UserId)
-                  .HasColumnName("Id_User");
-                entity.Property(e => e.FirstName)
-             .HasColumnName("FirstName");
-                entity.HasOne(e => e.User)
-                 .WithOne()
-                 .HasForeignKey<APPUser>(u => u.UserId);
-                //entity.HasOne(e => e.SecondaryRole)
-                //    .WithMany()
-                //    .HasForeignKey(e => e.SecondaryRoleId)
-                //    .OnDelete(DeleteBehavior.Restrict);
-            });
-            #endregion
-            #region Role
-            modelBuilder.Entity<Role>(entity =>
-            {
-                entity.ToTable("Role");
+    //            entity.HasKey(e => e.Id);
 
-                entity.HasKey(e => e.Id);
+    //            entity.Property(e => e.Id)
+    //                .IsRequired()
+    //                .ValueGeneratedOnAdd();
 
-                entity.Property(e => e.Id)
-                    .IsRequired()
-                    .ValueGeneratedOnAdd();
-
-                entity.Property(e => e.Name)
-                    .HasColumnName("Name")
-                    .IsRequired();
-                entity.Property(e => e.Description)
-                  .HasColumnName("Description");
-            });
-            #endregion 
-        }
+    //            entity.Property(e => e.Name)
+    //                .HasColumnName("Name")
+    //                .IsRequired();
+    //            entity.Property(e => e.Description)
+    //              .HasColumnName("Description");
+    //        });
+    //        #endregion 
+    //    }
 
 
     }

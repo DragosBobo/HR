@@ -11,9 +11,8 @@ namespace HrAppDataAcces.Entities
     {
         public Guid Id { get; set; }
         public string Username { get; set; }
-
         public string Password { get; set; }
-      public int UnitId  { get; set; }
+        public int UnitId  { get; set; }
         public bool SysAdmin { get; set; }
        
 

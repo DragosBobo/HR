@@ -72,11 +72,7 @@ namespace HrAppControllers.UserController
             return Ok();
             }
         #endregion
-        [HttpPost("/register-user")]
-        public async Task<ActionResult> CreateUser()
-        {
-
-        }
+       
     }
 }
 
